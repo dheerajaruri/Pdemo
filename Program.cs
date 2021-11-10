@@ -6,7 +6,8 @@ namespace Pdemo
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Employee employee = new Employee{Id=1001, Name="Ram", salary=98000};
+            Console.WriteLine(employee);
         }
     }
 }
